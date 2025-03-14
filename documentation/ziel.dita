@@ -17,20 +17,15 @@
         TEI vollständig konform; auf Erweiterungen (tei.extensions) durch davon
         abweichende Elemente wurde verzichtet. 
       </p>
-      <p>Das DTA-Basisformat soll im Rahmen der DTA-Richtlinien, die daneben
-            auch die allgemeinen <xref
-            href="http://www.deutschestextarchiv.de/doku/leitlinien"
-            format="html" scope="external">Leitlinien des DTA</xref> sowie die <xref
-            href="http://www.deutschestextarchiv.de/doku/richtlinien"
-            format="html" scope="external">Transkriptionsrichtlinien</xref> umfassen, eine
-            umfassende Textaufbereitung ermöglichen und dabei gleichzeitig
-            Variationsspielräume bei der Annotation so einschränken, dass die
-            Kohärenz der DTA-Texte untereinander gewährleistet wird. Für dieses
-            Ziel stellt die weite zeitliche Erstreckung des DTA-Korpus
-            einerseits und seine Textsortenvielfalt andererseits eine große
-            Herausforderung dar, resultiert sie doch u.a. in einer strukturellen
-            Variabilität der Vorlagen, der mit dem zur Verfügung stehenden
-            Tagset Genüge getan werden muss. </p>
+      <p>Das DTA-Basisformat soll im Rahmen der DTA-Richtlinien, die daneben auch die allgemeinen <xref
+                href="http://www.deutschestextarchiv.de/doku/leitlinien" format="html" scope="external">Leitlinien des
+                DTA</xref> sowie die <xref href="http://www.deutschestextarchiv.de/doku/richtlinien" format="html"
+                scope="external">Transkriptionsrichtlinien</xref> umfassen, eine umfassende Textaufbereitung ermöglichen
+            und dabei gleichzeitig Variationsspielräume bei der Annotation so einschränken, dass die Kohärenz der
+            DTA-Texte untereinander gewährleistet wird. Für dieses Ziel stellt die weite zeitliche Erstreckung des
+            DTA-Korpus einerseits und seine Textsortenvielfalt andererseits eine große Herausforderung dar, resultiert
+            sie doch u. a. in einer strukturellen Variabilität der Vorlagen, der mit dem zur Verfügung stehenden Tagset
+            Genüge getan werden muss. </p>
       <p>Mit der Ausarbeitung des DTA-Basisformats wollen wir einen Vorschlag
 			für einen Standard zur Volltext-Aufbereitung historischer Texte
 			unterbreiten. Damit soll die Analyse unterschiedlicher TEI-Texte mit
@@ -43,13 +38,19 @@
 			Volltextarchiven erleichtert werden. </p>
         <p id="rec">Das DTA-Basisformat wurde von der DFG und CLARIN-D zur Nachnutzung empfohlen, namentlich in den folgenden Dokumenten:
         <ul>
-            <li><xref href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_sprachkorpora.pdf" format="pdf" scope="external">Handreichung: Empfehlungen zu datentechnischen Standards und Tools bei der Erhebung von 
-                Sprachkorpora</xref>. Hrsg. vom Fachkollegium Sprachwissenschaften der Deutschen 
-                Forschungsgemeinschaft (DFG). Bonn 2015.</li>
-            <li><xref href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf" format="pdf" scope="external">Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft.</xref> 
-                Hrsg. vom Fachkollegium Literaturwissenschaft der Deutschen Forschungsgemeinschaft (DFG). Bonn 2015.</li>
-            <li><xref href="https://www.clarin-d.de/de/hilfe/benutzerhandbuch" format="pdf" scope="external">CLARIN-D User Guide.</xref> 
-                Part II (Linguistic resources and tools), ch. 6 (Types of resources), section "Text Corpora". Hrsg. von CLARIN-D AP 5. Berlin 2012.</li>
+            <li><xref
+                        href="https://www.dfg.de/resource/blob/171632/383249f00d425a643bd8c120404bbff6/standards-sprachkorpora-data.pdf"
+                        format="pdf" scope="external">Handreichung: Empfehlungen zu datentechnischen Standards und Tools
+                        bei der Erhebung von Sprachkorpora</xref>. Hrsg. vom Fachkollegium Sprachwissenschaften der
+                    Deutschen Forschungsgemeinschaft (DFG). Bonn 2019.</li>
+            <li><xref
+                        href="https://www.dfg.de/resource/blob/172106/3098d74057d3e0c82fdc1dd7e1b10480/foerderkriterien-editionen-literaturwissenschaft-data.pdf"
+                        format="pdf" scope="external">Förderkriterien für wissenschaftliche Editionen in der
+                        Literaturwissenschaft.</xref> Hrsg. vom Fachkollegium Literaturwissenschaft der Deutschen
+                    Forschungsgemeinschaft (DFG). Bonn 2015.</li>
+            <li><xref href="https://doi.org/10.5281/zenodo.15024961" format="pdf" scope="external">CLARIN-D User
+                        Guide.</xref> Part II (Linguistic resources and tools), ch. 6 (Types of resources), section
+                    "Text Corpora". Hrsg. von CLARIN-D AP 5. Berlin 2012.</li>
         </ul></p>
     </body>
   
