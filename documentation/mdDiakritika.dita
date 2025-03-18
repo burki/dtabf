@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_rjg_xg2_qs">
-  <title>Umgang mit Diakritika</title>
+  <title>Umgang mit Sonderzeichen</title>
   <body>
-    <p>Diakritika, die sich auf eine eindeutige moderne Entsprechung abbilden lassen,
-      werden entsprechend normalisiert. Dies betrifft z.B. die folgenden Zeichen:
+  	<p>Diakritika, Ligaturen und weitere Sonderzeichen, die sich auf eine eindeutige moderne Entsprechung abbilden lassen,
+      werden in den Metadaten entsprechend normalisiert. Dies betrifft z.B. die folgenden Zeichen:
     </p>
     <table>
       <tgroup cols="2">
@@ -36,8 +36,8 @@
         </tbody>
       </tgroup>
     </table>
-    <p>Diakritika, für die keine eindeutige Entsprechung gefunden werden kann (z.B. 
-      kontextbezogen ů) werden nicht normalisiert. In diesem Fall wird das 
+    <p>Sonderzeichen, für die keine eindeutige Entsprechung gefunden werden kann 
+    	(z.B. kontextbezogen ů) werden nicht normalisiert. In diesem Fall wird das 
       entsprechende Unicode-Zeichen gesetzt.
     </p>
   </body>

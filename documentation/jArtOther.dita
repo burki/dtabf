@@ -3,7 +3,7 @@
 <topic id="jArtOther">
   <title>Sonstige Artikel</title>
   <body>
-    <p>
+  	<p>
     Kann eine Gruppe von Beiträgen nicht einer der genannten Kategorien zugeordnet werden, so 
     werden diese Beiträge in untypisierten <codeph>&lt;div&gt;</codeph>-Elementen zusammengefasst. 
   </p>
