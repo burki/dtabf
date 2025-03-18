@@ -1,26 +1,26 @@
 DTA 'Base Format' (DTABf): Documentation (dtabf.ditamap and referenced files) 
-Version 1.1.0  
-2020-01-11
+Version 1.2.0  
+2025-03-18
 
 ---
 # Introduction and HowTo
 
-These are the source files of the DTA 'Base Format' documentation (version 1.1.0). The DTA 'Base Format' (DTABf) is a TEI format for the annotation of digitized historical texts. It is the annotation basis for all texts published on the Deutsches Textarchiv (DTA) platform [1].
+These are the source files of the DTA 'Base Format' documentation (version 1.2.0). The DTA 'Base Format' (DTABf) is a TEI format for the annotation of digitized historical texts. It is the annotation basis for all texts published on the Deutsches Textarchiv (DTA) platform [1].
 
-To explore the DTABf documentation see [the official website](http://www.deutschestextarchiv.de/doku/basisformat). 
-The DTABf documentation also contains information on how to access the [RNG schemas](http://www.deutschestextarchiv.de/doku/basisformat/schema.html) and how to use them.
+To explore the DTABf documentation see [the official website](https://www.deutschestextarchiv.de/doku/basisformat). 
+The DTABf documentation also contains information on how to access the [RNG schemas](https://www.deutschestextarchiv.de/doku/basisformat/schema.html) and how to use them.
 
-For elaborate information on the purpose of the format and constraints for its further development see the [DTABf Guiding Principles](http://www.deutschestextarchiv.de/doku/basisformat/leitlinien.html).
+For elaborate information on the purpose of the format and constraints for its further development see the [DTABf Guiding Principles](https://www.deutschestextarchiv.de/doku/basisformat/leitlinien.html).
 
 For instructions on the conversion of the DTABf-documentation source files in DITA to Webhelp responsive output see the respective [HowTo](export/webhelp_responsive/howto_oXygen.txt).
 
 ---
 # Publishers and Responsibilities
 
-PUBLISHER: Deutsches Textarchiv, Berlin-Brandenburg Academy of Sciences and Humanities, Jaegerstr. 22/23, 10117 Berlin, Germany (http://www.deutschestextarchiv.de).
+PUBLISHER: Deutsches Textarchiv, Berlin-Brandenburg Academy of Sciences and Humanities, Jaegerstr. 22/23, 10117 Berlin, Germany (https://www.deutschestextarchiv.de).
 
 *	FURTHER DEVELOPMENT OF FORMAT: DTABf Steering Committee (Matthias Boenig, Daniel Burckhardt, Stefan Dumont, Alexander Geyken, Martina Gödel, Susanne Haaf, Axel Herold, Christian Thomas)
-*	SCHEMA, DOCUMENTATION, FORMAT MAINTENANCE: Susanne Haaf
+*	SCHEMA, DOCUMENTATION, FORMAT MAINTENANCE (until 2023): Susanne Haaf
 *	FORMAT DEVELOPMENT (until 2017): Matthias Boenig, Alexander Geyken, Susanne Haaf, Christian Thomas, Frank Wiegand
 *	CONTACT: redaktion@deutschestextarchiv.de
 
@@ -66,26 +66,26 @@ to DITA. All further works on the documentation were carried out
 within the oXygen XML Editor [4]. DITA support within the oXygen 
 XML Editor is based on the DITA Open Toolkit [5]. The 
 "Webhelp mobile" output version published on 
-http://www.deutschestextarchiv.de/doku/basisformat is furthermore
+https://www.deutschestextarchiv.de/doku/basisformat is furthermore
 based on a respective DITA plugin provided by oXygen [6].
 
 ---
 # Links and References
 
 [1] Deutsches Textarchiv. Grundlage für ein Referenzkorpus der 
-neuhochdeutschen Sprache. http://www.deutschestextarchiv.de.
+neuhochdeutschen Sprache. https://www.deutschestextarchiv.de.
 
 [2] TEI Consortium, eds. TEI P5: Guidelines for Electronic Text 
 Encoding and Interchange. 3.1.0. Last modified: 15th December 2016.
-TEI Consortium. http://www.tei-c.org/Guidelines/P5.
+TEI Consortium. https://www.tei-c.org/guidelines/p5.
 
 [3] Darwin Information Typing Architecture (DITA) OASIS Standard. 
-http://dita.xml.org.
+https://docs.oasis-open.org/dita/dita/v1.3/os/part3-all-inclusive/dita-v1.3-os-part3-all-inclusive.html.
 
 [4] SyncRO Soft SRL: oXygen XML Editor. https://www.oxygenxml.com/.
 
 [5] Robert D Anderson, Jarno Elovirta, Roger W. Fienhold Sheen et al.: 
-DITA Open Toolkit (DITA-OT). http://www.dita-ot.org/.
+DITA Open Toolkit (DITA-OT). https://www.dita-ot.org/.
 
 [6] Oxygen XML WebHelp. Publish DITA and DocBook to WebHelp. 
 https://www.oxygenxml.com/xml_webhelp.html; https://www.oxygenxml.com/thirdparty/ > WebHelp Plugin
