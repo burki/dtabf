@@ -370,6 +370,7 @@
                <elementSpec ident="bibl" module="core" mode="change">
                    <attList>
                        <attDef ident="default" mode="delete"/>
+                   		<attDef ident="ref" mode="delete"/>
                        <attDef ident="type" mode="change">
                            <valList type="closed" mode="replace">
                                <valItem ident="M"><desc>Monographie</desc></valItem>
@@ -571,10 +572,11 @@
                <elementSpec ident="dateline" module="textstructure" mode="change">
                    <attList>
                        <attDef ident="n" mode="delete"/>
+                   		<attDef ident="cert" mode="delete"/>
                        <attDef ident="facs" mode="delete"/>
+	                   	<attDef ident="hand" mode="delete"/>
+	                   	<attDef ident="resp" mode="delete"/>
                        <attDef ident="sameAs" mode="delete"/>
-                       <attDef ident="cert" mode="delete"/>
-                       <attDef ident="resp" mode="delete"/>
                    </attList>
                </elementSpec>
                <elementSpec ident="del" module="core" mode="change">
@@ -597,11 +599,24 @@
                        <attDef ident="type" mode="delete"/>
                        <attDef ident="subtype" mode="delete"/>
                        <attDef ident="cert" mode="delete"/>
+                   		<attDef ident="place" mode="delete"/>
                        <attDef ident="resp" mode="delete"/>
                    </attList>
                </elementSpec>
                <elementSpec ident="div" module="textstructure" mode="change">
                    <attList>
+	                   	<attDef ident="cert" mode="delete"/>
+	                   	<attDef ident="facs" mode="delete"/>
+	                   	<attDef ident="hand" mode="delete"/>
+	                   	<attDef ident="n" mode="change">
+	                   		<datatype minOccurs="1" maxOccurs="unbounded">
+	                   			<dataRef key="teidata.count"/>
+	                   		</datatype>
+	                   	</attDef>
+	                   	<attDef ident="org" mode="delete"/>
+                   		<attDef ident="place" mode="delete"/>
+	                   	<attDef ident="resp" mode="delete"/>
+	                   	<attDef ident="sameAs" mode="delete"/>
                        <attDef ident="type" mode="change">
                            <valList type="closed" mode="replace">
                                <valItem ident="abbreviations"><desc>Abkürzungsverzeichnis</desc></valItem>
@@ -670,17 +685,6 @@
                                <valItem ident="jLocal"><desc>(Zeitung/Zeitschrift:) Lokalnachrichten</desc></valItem>
                                <valItem ident="jCulturalNews"><desc>(Zeitung/Zeitschrift:) Kulturnachrichten (Theater etc.)</desc></valItem>
                            </valList>
-                       </attDef>
-                       <attDef ident="sameAs" mode="delete"/>
-                       <attDef ident="org" mode="delete"/>
-                       <attDef ident="facs" mode="delete"/>
-                       <attDef ident="cert" mode="delete"/>
-                       <attDef ident="resp" mode="delete"/>
-                       <attDef ident="hand" mode="delete"/>
-                       <attDef ident="n" mode="change">
-                           <datatype minOccurs="1" maxOccurs="unbounded">
-                               <dataRef key="teidata.count"/>
-                           </datatype>
                        </attDef>
                     </attList>
                </elementSpec>
@@ -1242,23 +1246,24 @@
                </elementSpec>
                <elementSpec ident="postscript" module="textstructure" mode="change">
                    <attList>
-                       <attDef ident="n" mode="delete"/>
                        <attDef ident="facs" mode="delete"/>
-                       <attDef ident="sameAs" mode="delete"/>
                        <attDef ident="cert" mode="delete"/>
+                   		<attDef ident="n" mode="delete"/>
+                   		<attDef ident="place" mode="delete"/>
                        <attDef ident="resp" mode="delete"/>
+                   		<attDef ident="sameAs" mode="delete"/>
                    </attList>
                </elementSpec>
                <elementSpec ident="pubPlace" module="core" mode="change">
                    <attList>
-                       <attDef ident="role" mode="delete"/>
+	                   	<attDef ident="cert" mode="delete"/>
+	                   	<attDef ident="facs" mode="delete"/>  
+	                   	<attDef ident="n" mode="delete"/>
                        <attDef ident="nymRef" mode="delete"/>
-                       <attDef ident="n" mode="delete"/>
-                       <attDef ident="facs" mode="delete"/>
                        <attDef ident="ref" mode="delete"/>
-                       <attDef ident="sameAs" mode="delete"/>
-                       <attDef ident="cert" mode="delete"/>
-                       <attDef ident="resp" mode="delete"/>
+	                   	<attDef ident="resp" mode="delete"/>
+	                   	<attDef ident="role" mode="delete"/>
+	                     <attDef ident="sameAs" mode="delete"/>
                    </attList>
                </elementSpec>
                <elementSpec ident="q" module="core" mode="change">
@@ -1403,6 +1408,7 @@
                    <attList>
                        <attDef ident="n" mode="delete"/>
                        <attDef ident="facs" mode="delete"/>
+                   		<attDef ident="place" mode="delete"/>
                        <attDef ident="sameAs" mode="delete"/>
                        <attDef ident="cert" mode="delete"/>
                        <attDef ident="resp" mode="delete"/>
@@ -1448,11 +1454,12 @@
                </elementSpec>
                <elementSpec ident="speaker" module="core" mode="change">
                    <attList>
-                       <attDef ident="n" mode="delete"/>
+                   		<attDef ident="cert" mode="delete"/>  
                        <attDef ident="facs" mode="delete"/>
-                       <attDef ident="sameAs" mode="delete"/>
-                       <attDef ident="cert" mode="delete"/>
+                   		<attDef ident="n" mode="delete"/>
+                       <attDef ident="place" mode="delete"/>
                        <attDef ident="resp" mode="delete"/>
+                   		<attDef ident="sameAs" mode="delete"/>
                    </attList>
                </elementSpec>
                <elementSpec ident="spGrp" module="drama" mode="change">
@@ -1470,18 +1477,19 @@
                </elementSpec>
                <elementSpec ident="subst" module="transcr" mode="change">
                    <attList>
-                       <attDef ident="n" mode="delete"/>
-                       <attDef ident="xml:lang" mode="delete"/>
-                       <attDef ident="rend" mode="delete"/>
+                   		<attDef ident="cert" mode="delete"/>
+	                   	<attDef ident="extent" mode="delete"/>
+	                   	<attDef ident="facs" mode="delete"/>
+	                   	<attDef ident="hand" mode="delete"/>
+	                   	<attDef ident="n" mode="delete"/>
+	                   	<attDef ident="quantity" mode="delete"/>
+	                   	<attDef ident="place" mode="delete"/>  
+	                   	<attDef ident="rend" mode="delete"/>
                        <attDef ident="rendition" mode="delete"/>
+                   		<attDef ident="resp" mode="delete"/>
                        <attDef ident="sameAs" mode="delete"/>
-                       <attDef ident="facs" mode="delete"/>
-                       <attDef ident="hand" mode="delete"/>
                        <attDef ident="unit" mode="delete"/>
-                       <attDef ident="quantity" mode="delete"/>
-                       <attDef ident="extent" mode="delete"/>
-                       <attDef ident="cert" mode="delete"/>
-                       <attDef ident="resp" mode="delete"/>
+                   		<attDef ident="xml:lang" mode="delete"/>
                    </attList>
                </elementSpec>
                <elementSpec ident="supplied" module="transcr" mode="change">
@@ -1748,6 +1756,7 @@
                        <attDef ident="n" mode="delete"/>
                        <attDef ident="next" mode="delete"/>
                        <attDef ident="prev" mode="delete"/>
+                   		<attDef ident="ref" mode="delete"/>
                        <attDef ident="rendition" mode="delete"/>
                        <attDef ident="xml:id" mode="delete"/>
                        <attDef ident="xml:lang" mode="delete"/>
