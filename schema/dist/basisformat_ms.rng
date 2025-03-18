@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-03-18T12:34:04Z. . 
+Schema generated from ODD source 2025-03-18T13:45:51Z. . 
 TEI Edition:  
 TEI Edition Location: https://www.tei-c.org/Vault/P5// 
   
@@ -2456,6 +2456,8 @@ Normalization 13. Critical Apparatus]</a:documentation>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Textverlust</a:documentation>
                         <value>legal</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">rechtliche Gründe</a:documentation>
+                        <value>covered</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: überschrieben</a:documentation>
                      </choice>
                   </oneOrMore>
                </list>

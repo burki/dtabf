@@ -4148,7 +4148,7 @@ Normalization</ref>
           and illegible</val>。</desc><desc versionDate="2008-04-05" xml:lang="ja">省略の理由を示す。例えば、 <val>見本</val>、<val>聞こえない</val>、
           <val>無関係</val>、<val>取り消し</val>、<val>取り消しがありかつ判読できない</val>、など。</desc><desc versionDate="2017-02-06" xml:lang="fr">donne la raison de l'omission</desc><desc versionDate="2007-05-04" xml:lang="es">declara la causa de la omisión</desc><desc versionDate="2007-01-21" xml:lang="it">indica il motivo dell'omisione</desc><desc versionDate="2017-02-07" xml:lang="de">gibt den Grund für die Auslassung an</desc><datatype maxOccurs="unbounded">
 	<dataRef key="teidata.enumerated"/>
-      </datatype><valList type="closed"><valItem ident="insignificant"><desc>irrelevantes Material</desc></valItem><valItem ident="illegible"><desc>unleserliches Material</desc></valItem><valItem ident="fm"><desc>fremdsprachliches Material</desc></valItem><valItem ident="lost"><desc>Textverlust</desc></valItem><valItem ident="legal"><desc>rechtliche Gründe</desc></valItem></valList></attDef><attDef xmlns:teix="http://www.tei-c.org/ns/Examples" ident="agent" mode="delete"/></attList><exemplum xmlns:teix="http://www.tei-c.org/ns/Examples" xml:lang="en">
+      </datatype><valList type="closed"><valItem ident="insignificant"><desc>irrelevantes Material</desc></valItem><valItem ident="illegible"><desc>unleserliches Material</desc></valItem><valItem ident="fm"><desc>fremdsprachliches Material</desc></valItem><valItem ident="lost"><desc>Textverlust</desc></valItem><valItem ident="legal"><desc>rechtliche Gründe</desc></valItem><valItem ident="covered"><desc>Manuskripte: überschrieben</desc></valItem></valList></attDef><attDef xmlns:teix="http://www.tei-c.org/ns/Examples" ident="agent" mode="delete"/></attList><exemplum xmlns:teix="http://www.tei-c.org/ns/Examples" xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
       <gap quantity="4" unit="chars" reason="illegible"/>
     </egXML>
@@ -8690,17 +8690,18 @@ elements of  <gi>profileDesc</gi> unless these are documenting multiple texts.</
                                <valItem ident="jAn"><desc>(Zeitung/Zeitschrift:) Anzeige</desc></valItem>
                                <valItem ident="jAnnouncements"><desc>(Zeitung/Zeitschrift:) Anzeigenteil</desc></valItem>
                                <valItem ident="jArticle"><desc>(Zeitung/Zeitschrift:) Artikel/Nachricht</desc></valItem>
+                           		<valItem ident="jComment"><desc>(Zeitung/Zeitschrift:) Kommentar</desc></valItem>
+                           		<valItem ident="jCulturalNews"><desc>(Zeitung/Zeitschrift:) Kulturnachrichten (Theater etc.)</desc></valItem>
                                <valItem ident="jEditorialStaff"><desc>(Zeitung/Zeitschrift:) Zusammenstellung der Redaktion</desc></valItem>
                                <valItem ident="jExpedition"><desc>(Zeitung/Zeitschrift:) Hinweise zum Versand</desc></valItem>
                                <valItem ident="jFeuilleton"><desc>(Zeitung/Zeitschrift:) Feuilleton</desc></valItem>
                                <valItem ident="jFinancialNews"><desc>(Zeitung/Zeitschrift:) Finanznachrichten</desc></valItem>
+                           		<valItem ident="jLocal"><desc>(Zeitung/Zeitschrift:) Lokalnachrichten</desc></valItem>
                                <valItem ident="jPoliticalNews"><desc>(Zeitung/Zeitschrift:) Politische Nachrichten</desc></valItem>
                                <valItem ident="jReadersLetters"><desc>(Zeitung/Zeitschrift:) Leserbriefe</desc></valItem>
                                <valItem ident="jSupplement"><desc>(Zeitung/Zeitschrift:) Beilage</desc></valItem>
+                           		<valItem ident="jVarious"><desc>(Zeitung/Zeitschrift:) Vermischtes</desc></valItem>
                                <valItem ident="jWeatherReports"><desc>(Zeitung/Zeitschrift:) Wetternachrichten</desc></valItem>
-                           		 <valItem ident="jVarious"><desc>(Zeitung/Zeitschrift:) Vermischtes</desc></valItem>
-                               <valItem ident="jLocal"><desc>(Zeitung/Zeitschrift:) Lokalnachrichten</desc></valItem>
-                               <valItem ident="jCulturalNews"><desc>(Zeitung/Zeitschrift:) Kulturnachrichten (Theater etc.)</desc></valItem>
                            </valList>
                        </attDef></attList><exemplum xmlns:teix="http://www.tei-c.org/ns/Examples" xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#bentham">
