@@ -1,5 +1,25 @@
 Changelog
 ===
+# Version 1.2.0 vom 18.03.2025
+## Dokumentation
+* Update des DITA2WebHelp-oXygen-Templates für oXygen-Versionen 18 und höher; neues Template jetzt über das Repository verfügbar
+* Update documentation/export/howto_oXygen.txt entsprechend dem neuen Workflow
+* Footer neu erstellt
+* Update Impressum
+* [jArticle.dita](documentation/jArticle.dita): weitere Artikeltypen dokumentiert
+* diverse Typos korrigiert
+
+## ODD und Schema
+* in basisformat.odd und basisformat_ms.odd //schemaSpec/@source angepasst, sodass auf das kompilierte ODD basisformat_all.xml im Repository direkt zugegriffen wird
+* <correspDesc>, <correspAction>, <correspContext> hinzugefügt
+* @reason="covered" in <gap> ergänzt (für Manuskripte)
+* @type="jComment" in <div> ergänzt (für Zeitungen)
+* Anpassung an TEI-Version 4.9.0 (inkl. aller Versionen bis dahin)
+
+## Repositorium
+* .gitignore hinzugefügt
+* HTML-Dokumentation (Derivat aus DITA2WebHelp) hinzugefügt
+
 # Version 1.1.0 vom 10.01.2020
 ## Dokumentation 
 * [howto.dita](documentation/howto.dita): Erläuterung hinzugefügt
