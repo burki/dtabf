@@ -13,8 +13,8 @@
                     <persName><surname>Wiegand</surname><forename>Frank</forename></persName>
                 </editor>
                 <respStmt>
-                    <persName ref="http://d-nb.info/gnd/1018099549"><surname>Haaf</surname><forename>Susanne</forename></persName>
-                    <resp>Creation of the DTABf ODDs; Maintenance and updates of the DTABf components (ODD, RNG, documentation)</resp>
+                	<persName ref="https://d-nb.info/gnd/1222198746"><surname>Haaf</surname><forename>Susanne</forename></persName>
+                	<resp>Creation of the DTABf ODDs; Maintenance and updates of the DTABf components (ODD, RNG, documentation) 2011–03.2025</resp>
                 </respStmt>
 	            	<respStmt>
 	            		<resp>Further development of the format</resp>
@@ -63,7 +63,7 @@
         <body>
             <p>This is the TEI Customization for the DTA 'base format', used by the DFG Project
                 Deutsches Textarchiv (The German Text Archive).</p>
-        	<schemaSpec ident="basisformat" docLang="en" prefix="tei_" start="TEI" xml:lang="en" source="https://raw.githubusercontent.com/deutschestextarchiv/dtabf/refs/heads/dev/schema/dist/basisformat_all.xml"><classSpec rend="add" module="tei" type="atts" ident="att.anchoring">
+        	<schemaSpec ident="basisformat" docLang="en" prefix="tei_" start="TEI" xml:lang="en" source="https://raw.githubusercontent.com/deutschestextarchiv/dtabf/refs/heads/master/schema/dist/basisformat_all.xml"><classSpec rend="add" module="tei" type="atts" ident="att.anchoring">
   <gloss xmlns:teix="http://www.tei-c.org/ns/Examples" xmlns:xi="http://www.w3.org/2001/XInclude" versionDate="2021-01-28" xml:lang="en">anchoring</gloss>
   <desc xmlns:teix="http://www.tei-c.org/ns/Examples" xmlns:xi="http://www.w3.org/2001/XInclude" versionDate="2021-01-28" xml:lang="en">provides attributes for use on annotations, e.g. notes and groups of notes
   describing the existence and position of an anchor for annotations.</desc>
