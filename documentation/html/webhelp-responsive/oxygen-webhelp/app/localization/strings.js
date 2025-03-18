@@ -1,4 +1,6 @@
 var localization = new Array();
+localization["ask.me.anything"]="Frag mich irgendwas";
+localization["go.to.top"]="Nach oben";
 localization["advanced_search_tooltip_title"]="Suchsyntax Hilfe";
 localization["reset_search_filters"]="Zurücksetzen";
 localization["search_filters"]="Filter";

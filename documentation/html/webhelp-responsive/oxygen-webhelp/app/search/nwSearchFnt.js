@@ -654,9 +654,9 @@ function nwSearchFnt(index, options, stemmer, util) {
         }
 
         // Add a space between '(' or ')' and the real word
-        searchTextField = searchTextField.replace(/\((\S*)/g, '( $1');
-        searchTextField = searchTextField.replace(/\)(\S*)/g, ') $1');
-        searchTextField = searchTextField.replace(/(\S*)\)/g, '$1 )');
+        searchTextField = searchTextField.replace(/\(([^)\s])/g, '( $1');
+        searchTextField = searchTextField.replace(/\)([^(\s])/g, ') $1');
+        searchTextField = searchTextField.replace(/([^\s])\)/g, '$1 )');
 
         // EXM-39245 - Remove punctuation marks
         // w1,w2 -> w1 w2
@@ -692,6 +692,7 @@ function nwSearchFnt(index, options, stemmer, util) {
         var splitExpression = expressionInput.split(" ");
 
         // Exclude/filter stop words
+        var onlyBooleanOperators = true;
         for (var t in splitExpression) {
             var cw = splitExpression[t].toLowerCase();
             if (cw.trim().length == 0) {
@@ -716,14 +717,21 @@ function nwSearchFnt(index, options, stemmer, util) {
                 } else {
                     wordsArray.push(cw);
                 }
+                onlyBooleanOperators = false;
             } else if (contains(index.stopWords, cw)) {
                 // Exclude stop words
                 excluded.push(cw);
             } else {
                 wordsArray.push(cw);
+                onlyBooleanOperators = false;
             }
         }
-
+        
+        if(onlyBooleanOperators) {
+            excluded = excluded.concat(splitExpression);
+            wordsArray = [];
+        }
+        
         expressionInput = wordsArray.join(" ");
 
         realSearchQuery = expressionInput;
@@ -1054,7 +1062,20 @@ function nwSearchFnt(index, options, stemmer, util) {
 
         var indexerLanguage = options.getIndexerLanguage();
         // set the tokenizing method
-        useCJKTokenizing = !!(typeof indexerLanguage != "undefined" && (indexerLanguage == "zh" || indexerLanguage == "ko"));
+        useCJKTokenizing = false;
+        if(typeof indexerLanguage != "undefined"){
+            indexerLanguage = indexerLanguage.toLowerCase();
+            //WH-3248 More flexible match for languages
+            const langs = ['zh', 'ko'];
+            for (var langIndex in langs) {
+                if(indexerLanguage === langs[langIndex] 
+                    || (indexerLanguage.lastIndexOf(langs[langIndex] + "-") === 0)
+                    || (indexerLanguage.lastIndexOf(langs[langIndex] + "_") === 0)){
+                    useCJKTokenizing = true;
+                    break;
+                }
+            }
+        }
         //If Lucene CJKTokenizer was used as the indexer, then useCJKTokenizing will be true. Else, do normal tokenizing.
         // 2-gram tokenizing happens in CJKTokenizing,
         // If doStem then make tokenize with Stemmer
