@@ -673,17 +673,18 @@
                                <valItem ident="jAn"><desc>(Zeitung/Zeitschrift:) Anzeige</desc></valItem>
                                <valItem ident="jAnnouncements"><desc>(Zeitung/Zeitschrift:) Anzeigenteil</desc></valItem>
                                <valItem ident="jArticle"><desc>(Zeitung/Zeitschrift:) Artikel/Nachricht</desc></valItem>
+                           		<valItem ident="jComment"><desc>(Zeitung/Zeitschrift:) Kommentar</desc></valItem>
+                           		<valItem ident="jCulturalNews"><desc>(Zeitung/Zeitschrift:) Kulturnachrichten (Theater etc.)</desc></valItem>
                                <valItem ident="jEditorialStaff"><desc>(Zeitung/Zeitschrift:) Zusammenstellung der Redaktion</desc></valItem>
                                <valItem ident="jExpedition"><desc>(Zeitung/Zeitschrift:) Hinweise zum Versand</desc></valItem>
                                <valItem ident="jFeuilleton"><desc>(Zeitung/Zeitschrift:) Feuilleton</desc></valItem>
                                <valItem ident="jFinancialNews"><desc>(Zeitung/Zeitschrift:) Finanznachrichten</desc></valItem>
+                           		<valItem ident="jLocal"><desc>(Zeitung/Zeitschrift:) Lokalnachrichten</desc></valItem>
                                <valItem ident="jPoliticalNews"><desc>(Zeitung/Zeitschrift:) Politische Nachrichten</desc></valItem>
                                <valItem ident="jReadersLetters"><desc>(Zeitung/Zeitschrift:) Leserbriefe</desc></valItem>
                                <valItem ident="jSupplement"><desc>(Zeitung/Zeitschrift:) Beilage</desc></valItem>
+                           		<valItem ident="jVarious"><desc>(Zeitung/Zeitschrift:) Vermischtes</desc></valItem>
                                <valItem ident="jWeatherReports"><desc>(Zeitung/Zeitschrift:) Wetternachrichten</desc></valItem>
-                           		 <valItem ident="jVarious"><desc>(Zeitung/Zeitschrift:) Vermischtes</desc></valItem>
-                               <valItem ident="jLocal"><desc>(Zeitung/Zeitschrift:) Lokalnachrichten</desc></valItem>
-                               <valItem ident="jCulturalNews"><desc>(Zeitung/Zeitschrift:) Kulturnachrichten (Theater etc.)</desc></valItem>
                            </valList>
                        </attDef>
                     </attList>
