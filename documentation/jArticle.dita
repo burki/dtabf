@@ -17,34 +17,53 @@
       <table>
           <tgroup cols="3">
               <thead>
-                  <row>
-                      <entry>Kategorie</entry>
-                      <entry><codeph>@type</codeph>-Wert</entry>
-                      <entry>Hierarchie-Ebene (empfohlen)</entry>
-                  </row>
+                <row>
+                    <entry>Kategorie</entry>
+                    <entry><codeph>@type</codeph>-Wert</entry>
+                    <entry>Hierarchie-Ebene (empfohlen)</entry>
+                </row>
               </thead>
               <tbody>
-                  <row>
-                      <entry>Politische Nachrichten inkl. telegraphischer Berichte</entry>
-                      <entry><codeph>jPoliticalNews</codeph></entry>
-                      <entry>1</entry>
-                  </row>
-                  <row>
-                      <entry>Wirtschafts- und Finanznachrichten</entry>
-                      <entry><codeph>jFinancialNews</codeph></entry>
-                      <entry>1</entry>
-                  </row>
-                  <row>
-                      <entry>Wetternachrichten</entry>
-                      <entry><codeph>jWeatherReports</codeph></entry>
-                      <entry>1</entry>
-                  </row>
-                  <row>
-                      <entry>Artikel/Nachricht</entry>
-                      <entry><codeph>jArticle</codeph></entry>
-                      <entry>2 | 3 | ...</entry>
-                  </row>
-                  
+              	<row>
+              		<entry>Kulturnachrichten</entry>
+              		<entry><codeph>jCulturalNews</codeph></entry>
+              		<entry>1</entry>
+              	</row>
+              	<row>
+              		<entry>Lokales</entry>
+              		<entry><codeph>jLocal</codeph></entry>
+              		<entry>1</entry>
+              	</row>
+              	<row>
+              		<entry>Politische Nachrichten inkl. telegraphischer Berichte</entry>
+              		<entry><codeph>jPoliticalNews</codeph></entry>
+              		<entry>1</entry>
+              	</row>
+              	<row>
+              		<entry>Vermischtes</entry>
+              		<entry><codeph>jVarious</codeph></entry>
+              		<entry>1</entry>
+              	</row>
+              	<row>
+              		<entry>Wetternachrichten</entry>
+              		<entry><codeph>jWeatherReports</codeph></entry>
+              		<entry>1</entry>
+              	</row>
+              	<row>
+              		<entry>Wirtschafts- und Finanznachrichten</entry>
+              		<entry><codeph>jFinancialNews</codeph></entry>
+              		<entry>1</entry>
+              	</row>
+                <row>
+                    <entry>Artikel/Nachricht</entry>
+                    <entry><codeph>jArticle</codeph></entry>
+                    <entry>2 | 3 | ...</entry>
+                </row>
+              	<row>
+              		<entry>Kommentar</entry>
+              		<entry><codeph>jComment</codeph></entry>
+              		<entry>1 | 2 | ...</entry>
+              	</row>
               </tbody>
           </tgroup>
       </table>
