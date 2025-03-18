@@ -7,7 +7,7 @@ Changelog
 * Footer neu erstellt
 * Update Impressum
 * [jArticle.dita](documentation/jArticle.dita): weitere Artikeltypen dokumentiert
-* diverse Typos korrigiert
+* diverse Typos und Ungenauigkeiten korrigiert
 
 ## ODD und Schema
 * in basisformat.odd und basisformat_ms.odd //schemaSpec/@source angepasst, sodass auf das kompilierte ODD basisformat_all.xml im Repository direkt zugegriffen wird
