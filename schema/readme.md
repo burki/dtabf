@@ -1,28 +1,28 @@
 DTA 'Base Format' (DTABf): Schema (including Schematron constraint set)  
-Version 1.1.0  
-2020-01-11
+Version 1.2.0  
+2025-03-18
 
 ---
 # Introduction
 
-These are the source files of the DTA 'Base Format' schema (version 1.1.0). The DTA 'Base Format' (DTABf) is a TEI format for the annotation of digitized historical texts. It is the annotation basis for all texts published on the Deutsches Textarchiv 
+These are the source files of the DTA 'Base Format' schema (version 1.2.0). The DTA 'Base Format' (DTABf) is a TEI format for the annotation of digitized historical texts. It is the annotation basis for all texts published on the Deutsches Textarchiv 
 (DTA) platform [1].
 
-More information on how to access the RNG schema and how to use the schema are available via the [DTABf documentation](http://www.deutschestextarchiv.de/doku/basisformat/schema.html).
+More information on how to access the RNG schema and how to use the schema are available via the [DTABf documentation](https://www.deutschestextarchiv.de/doku/basisformat/schema.html).
 
-For elaborate information on the purpose of the format and constraints for its further development see the [DTABf Guiding Principles](http://www.deutschestextarchiv.de/doku/basisformat/leitlinien.html).
+For elaborate information on the purpose of the format and constraints for its further development see the [DTABf Guiding Principles](https://www.deutschestextarchiv.de/doku/basisformat/leitlinien.html).
 
 ---
 # Publishers and Responsibilities
 
-PUBLISHER: Deutsches Textarchiv, Berlin-Brandenburg Academy of Sciences and Humanities, Jaegerstr. 22/23, 10117 Berlin, Germany (http://www.deutschestextarchiv.de).
+PUBLISHER: Deutsches Textarchiv, Berlin-Brandenburg Academy of Sciences and Humanities, Jaegerstr. 22/23, 10117 Berlin, Germany (https://www.deutschestextarchiv.de).
 
 *	FURTHER DEVELOPMENT OF FORMAT: DTABf Steering Committee (Matthias Boenig, Daniel Burckhardt, Stefan Dumont, Alexander Geyken, Martina Gödel, Susanne Haaf, Axel Herold, Christian Thomas)
-*	SCHEMA, DOCUMENTATION, FORMAT MAINTENANCE: Susanne Haaf
+*	SCHEMA, DOCUMENTATION, FORMAT MAINTENANCE (until 2023): Susanne Haaf
 *	FORMAT DEVELOPMENT (until 2017): Matthias Boenig, Alexander Geyken, Susanne Haaf, Christian Thomas, Frank Wiegand
 *	CONTACT: redaktion@deutschestextarchiv.de
 
-URL: http://www.deutschestextarchiv.de/doku/basisformat
+URL: https://www.deutschestextarchiv.de/doku/basisformat
 
 ---
 # COPYRIGHT NOTICE
@@ -61,10 +61,10 @@ license (http://www.opensource.org/licenses/BSD-2-Clause).
 # Links and References
 
 [1] Deutsches Textarchiv. Grundlage für ein Referenzkorpus der 
-neuhochdeutschen Sprache. http://www.deutschestextarchiv.de.
+neuhochdeutschen Sprache. https://www.deutschestextarchiv.de.
 
 [2] TEI Consortium, eds. TEI P5: Guidelines for Electronic Text 
 Encoding and Interchange. 3.1.0. Last modified: 15th December 2016.
-TEI Consortium. http://www.tei-c.org/Guidelines/P5.
+TEI Consortium. https://www.tei-c.org/guidelines/p5.
 
-All links were accessed on 1 March 2017.
+All links were accessed on 18 March 2025.
