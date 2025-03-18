@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="main">ODD file for the DTA 'Base Format' for printed texts (DTABf)</title>
-            		<title type="sub">Version 1.1.0</title>
+            		<title type="sub">Version 1.2.0</title>
                 <editor corresp="#DTACorpusPublisher">
                     <persName ref="http://d-nb.info/gnd/115266127"><surname>Geyken</surname><forename>Alexander</forename></persName>
                 	<persName ref="https://d-nb.info/gnd/1222198746"><surname>Haaf</surname><forename>Susanne</forename></persName>
