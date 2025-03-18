@@ -4,6 +4,14 @@
   <title>Besondere Textsorten</title>
   <titlealts><navtitle>Spezial</navtitle></titlealts>
     <abstract><shortdesc>Auszeichnung spezifischer Textarten und Textsorten (Manuskripte; Zeitungen)</shortdesc></abstract>
-  <body/>
+  <body>
+  	<section>
+  		<title>Themen</title>
+  		<ul>
+  			<li><xref href="manuskript.dita" scope="local">Auszeichnung von Manuskripten</xref></li>
+  			<li><xref href="zeitung.dita" scope="local">Auszeichnung von Zeitungen</xref></li>
+  		</ul>
+  	</section>
+  </body>
     
 </topic>
